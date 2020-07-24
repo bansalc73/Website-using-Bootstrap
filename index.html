@@ -12,12 +12,13 @@
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,12 +67,84 @@
             </div>
         </div>
     </header>
-    <div>
-        This will contain main body
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="4000">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="images/AI.jpg" alt="AI" class="d-block img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/AI2.png" alt="AI" class="d-block img-fluid" height="600px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/AI3.jpg" alt="AI" class="d-block img-fluid">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-danger btm-sm" id="carouselButton"><span class="fa fa-pause"></span></button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        This will contain foooter
-    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-4">
+                    <h5>Our Address</h5>
+                    <address class="address">
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        Parallel Universe<br>
+                        <i class="fa fa-phone fa-lg navbar-color"></i> +xxxxxxxxx<br>
+                        <i class="fa fa-fax fa-lg navbar-color"></i> +xxxxxxx<br>
+                        <i class="fa fa-envelope fa-lg navbar-color"></i> <a href="mailto:xyz@ml.net" class="text-color">xyz@ml.net</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+" target="_blank"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="
+                            target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"
+                            target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" target="_blank"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/" target="_blank"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:" target="_blank"><i
+                                class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2020 Machine Learning Academy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
