@@ -7,4 +7,14 @@ body{
 .navbar-color{
     color: #eb3a54e6;
 }
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background: #031426;
+    color: floralwhite; }
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; }
+    
   
