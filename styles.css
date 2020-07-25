@@ -8,18 +8,22 @@ body{
 .navbar-color{
     color: #eb3a54e6;
 }
-.jumbotron {
+.jumbotron-fluid {
+    width: 100vw;
     margin: 0px auto;
     padding: 70px 30px;
     background: #031426;
     color: floralwhite; }
+.footer{
+    width: 100vw;
+}
 
 .card-property{
     background-color: #f1ecec;
     margin: 10px auto;
     padding: 0px 0px;
     border-bottom: 1px ridge #343546ad;
-    min-height: 500px;
+    min-height: 400px;
 }
 .media-para{
     padding-top: 60px;
@@ -67,6 +71,12 @@ color: floralwhite; }
     }
     .carousel .carousel-item img{
         height: 300px;
+    }
+  }
+  @media only screen and (max-width: 406px) {
+    .media img{
+        height: 120px;
+        width: 150px;
     }
   }
   
