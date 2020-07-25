@@ -17,7 +17,9 @@ body{
 .footer{
     width: 100vw;
 }
-
+.form-property{
+    background-color: #e4dcdcfa;
+}
 .card-property{
     background-color: #f1ecec;
     margin: 10px auto;
