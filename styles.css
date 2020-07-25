@@ -92,36 +92,5 @@ color: floralwhite; }
     }
   }
   
-
-  .section {
-    position: relative;
-    /* max-width: 920px; */
-    min-height: 40vh;
-    padding: 40px;
-    margin: auto;
-  }
- 
-  .section .bg-move {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: auto;
-    width: 100%;
-    background-image: url("./images/move1.jpeg");
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .section .bg-move1{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: auto;
-    width: 100%;
-    background-image: url("./images/move2.jpeg");
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
   
   
