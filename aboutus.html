@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-     <!-- stylesheets  -->
+    <!-- stylesheets  -->
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
@@ -13,19 +14,19 @@
     <link rel="stylesheet" href="styles.css">
     <title>About Us</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"
+            >
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo" height="50" width="60"></a>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="index.html"><span
+                        <a class="nav-link" href="index.html"><span
                                 class="fa fa-home navbar-color"></span>Home</a>
                     </li>
                     <li class="nav-item active">
@@ -55,10 +56,74 @@
             </div>
         </div>
     </nav>
+    <header class="jumbotron-fluid">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6 align-self-center">
+                    <h1>Who are we?</h1>
+                    <p>ML Academy is a instiution founded by Chirag Bansal to
+                        teach the basic fundamentals of AI and ML to students of
+                        young age.We are a team of dedicated members constantly Learning
+                        in this field.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 align-self-center">
+                    <img src="images/About1.jpg" alt="ML" class="img-fluid mt-5">
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        Body goes here
+        <div class="row">
+            <ol class="col-12 breadcrumb mt-2">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+            <div class="col-12">
+                <h3>About Us</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 col-sm-6">
+                <h2>Our History</h2>
+                <p>Started in 2015, ML Academy quickly established itself as a instiution par excellence
+                    in India. With its unique teaching methods and well-qualified faculty, it
+                    enjoys grand success in filed of Machine Learning. 
+                    </p>
+                <p>The academy has a vision
+                    to impart ML fundamentals in young students so they could appreciate the technology
+                    and can comeup with something for betterment of world. </p>
+            </div>
+            <div class="col col-sm">
+                <div class="card">
+                    <h3 class="card-header bg-card text-white">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">7 Feb 2015</dd>
+                            <dt class="col-6">Major Stake Holder</dt>
+                            <dd class="col-6">Chirag Bansal</dd>
+                            <dt class="col-6">Our Students</dt>
+                            <dd class="col-6">5000</dd>
+                            <dt class="col-6">Employees</dt>
+                            <dd class="col-6">40</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card card-body bg-quote">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Future Artificial Intelligence (AI) is more about human emotions, compassion, values and elimination of human sufferings.</p>
+                        <footer class="blockquote-footer">Amit Ray,
+                            <cite title="Source Title"> Compassionate Artificial Intelligence</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
     </div>
-
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -102,11 +167,12 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2020 Machine Learning Academy</p>
+                    <p>© Copyright 2020 ML Academy</p>
                 </div>
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
