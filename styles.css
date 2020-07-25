@@ -25,9 +25,9 @@ body{
 
 .carousel {
     background: #0e3e6c; }
-    .carousel .carousel-item {
+.carousel .carousel-item {
     height: 600px; }
-    .carousel .carousel-item img {
+.carousel .carousel-item img {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -47,5 +47,16 @@ body{
     margin: 0px auto;
     padding: 20px 0px;
 color: floralwhite; }
+
+
+@media only screen and (max-width: 1000px) {
+    .carousel .carousel-item{
+        height: 300px;
+    }
+    .carousel .carousel-item img{
+        height: 300px;
+    }
+  }
+  
         
   
