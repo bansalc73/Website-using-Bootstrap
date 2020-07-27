@@ -35,6 +35,11 @@ body{
 .row-header {
     margin: 0px auto;
     padding: 0px 0px; }
+.btn-success{
+    background-color: #010831;
+    /* color: floralwhite; */
+}
+
 
 .row-content {
     margin: 0px auto;
@@ -70,6 +75,16 @@ body{
 .text-color{
     color: floralwhite;
 }
+
+.modal .modal-header {
+    background: #010a13;
+    color: floralwhite; }
+.modal .modal-header button {
+    color: floralwhite; }
+.modal .modal-body{
+    background-color:#0003188f;
+}
+    
 .footer {
     background-color: #010c36;
     margin: 0px auto;

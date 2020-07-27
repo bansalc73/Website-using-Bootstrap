@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,14 @@
 
     <!-- stylesheets  -->
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="styles.css">
     <title>Courses For You</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container">
@@ -25,8 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"><span
-                                class="fa fa-home navbar-color"></span>Home</a>
+                        <a class="nav-link" href="index.html"><span class="fa fa-home navbar-color"></span>Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.html"><span class="fa fa-info navbar-color"></span>About</a>
@@ -47,11 +48,11 @@
                         </a>
                     </li>
                 </ul>
-                <span class="navbar-text">
+                <!-- <span class="navbar-text">
                     <a href="#" role="button">
                         <span class="fa fa-sign-in fa-lg navbar-color"></span>Login
                     </a>
-                </span>
+                </span> -->
             </div>
         </div>
     </nav>
@@ -78,6 +79,148 @@
                 <li class="breadcrumb-item active" aria-current="page">Get Started</li>
             </ol>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-3">Enroll Now</h2>
+                <h5 class="mb-3">Browse through our courses and get started with your Machine Learning carrer.</h5>
+                <hr class="mb-5">
+            </div>
+        </div>
+        <div class="row">
+            <div id="accordion" class="col-12">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Machine Learning For All <small>
+                                    <span class="badge badge-success">
+                                        Beginners
+                                    </span></small>
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 offset-sm-1 col-sm-3 text-center">
+                                   <h5> Start your first ML course,get to know the core fundamentals of ML</h5>
+                                </div>
+                                <div class="col-12 col-sm-7">
+                                    <p class="text-left">Start with understanding what is Machine Learning.Its classification and how 
+                                        with the use of data we train machines to do tasks.Appreciate the AI world
+                                    and start to think about your own project.</p>
+                                </div>
+                                <div class="offset-2 col-3">
+                                    <span class="badge badge-info"><span class="fa fa-rupee fa-lg"> <strong><em>9,999</em></strong> </span></span>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" role="button" class="btn btn-success" id="start-course">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h3 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Deep Dive into ML <small>
+                                <span class="badge badge-danger">Advanced</span></small>
+                        </a>
+                        </h3>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 offset-sm-1 col-sm-3 text-center">
+                                   <h5> Boost you ML carerr by our specialized courses with renowned faculties</h5>
+                                </div>
+                                <div class="col-12 col-sm-7">
+                                    <p class="text-left">Dive deep into supervised/unsupervised learning.Build your own project 
+                                        and catch up skills like dataset optimization,least basied dataset and much more.
+                                        The course starts with a quick revision of basics and then starting with advanced options
+                                    </p>
+                                </div>
+                                <div class="offset-2 col-3">
+                                    <span class="badge badge-info"><span class="fa fa-rupee fa-lg"> <strong><em>14,999</em></strong> </span></span>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" role="button" class="btn btn-success" id="start-course">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h3 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Start Industy Project <small>
+                                <span class="badge badge-primary">Intermediate</span></small>
+                        </a>
+                        </h3>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 offset-sm-1 col-sm-3 text-center">
+                                   <h5>Work with a team of 5 lead by industry specialist and build your project</h5>
+                                </div>
+                                <div class="col-12 col-sm-7">
+                                    <p class="text-left">The course focuses on practical applications of your
+                                        ML knowledge and learning team working skills.The project is supervised by our
+                                        industry expert.Get your skills certified. 
+                                    </p>
+                                </div>
+                                <div class="offset-2 col-3">
+                                    <span class="badge badge-info"><span class="fa fa-rupee fa-lg"> <strong><em>6,999</em></strong> </span></span>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" role="button" class="btn btn-success" id="start-course">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h3 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                                Deep Learning <small>
+                                <span class="badge badge-primary">Intermediate</span></small>
+                        </a>
+                        </h3>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 offset-sm-1 col-sm-3 text-center">
+                                   <h5>Get specialized in deep learning and neural circuits.Get certificate upon completion. </h5>
+                                </div>
+                                <div class="col-12 col-sm-7">
+                                    <p class="text-left">Deep learning has immense possibilites in near future.Make 
+                                        yourself aligned to indusrty and learn deep neural networks to kick start you journey.
+                                        Basic of ML is required to enroll in this course.
+                                    </p>
+                                </div>
+                                <div class="offset-2 col-3">
+                                    <span class="badge badge-info"><span class="fa fa-rupee fa-lg"> <strong><em>9,999</em></strong> </span></span>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" role="button" class="btn btn-success" id="start-course">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
     </div>
     <footer class="footer">
         <div class="container">
@@ -99,7 +242,8 @@
                         Designation: Student@IIITB<br>
                         Project for: Internshala Assignment<br>
                         <i class="fa fa-phone fa-lg navbar-color"></i> +91-9728209388<br>
-                        <i class="fa fa-envelope fa-lg navbar-color"></i> <a href="bansalc73@gmail.com" class="text-color">bansalc73@gmail.com</a>
+                        <i class="fa fa-envelope fa-lg navbar-color"></i> <a href="bansalc73@gmail.com"
+                            class="text-color">bansalc73@gmail.com</a>
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
@@ -131,4 +275,5 @@
     <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>
 </body>
+
 </html>

@@ -10,7 +10,7 @@
 
     <!-- stylesheets  -->
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
@@ -51,13 +51,53 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <a href="#" role="button">
+                    <a href="#" id="login-form" role="button">
                         <span class="fa fa-sign-in fa-lg navbar-color"></span>Login
                     </a>
                 </span>
             </div>
         </div>
     </nav>
+    <div id="login-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button class="close" type="button" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="jumbotron-fluid">
         <div class="container">
             <div class="row row-header">
@@ -186,7 +226,7 @@
                         Designation: Student@IIITB<br>
                         Project for: Internshala Assignment<br>
                         <i class="fa fa-phone fa-lg navbar-color"></i> +91-9728209388<br>
-                        <i class="fa fa-envelope fa-lg navbar-color"></i> <a href="bansalc73@gmail.com" class="text-color">bansalc73@gmail.com</a>
+                        <i class="fa fa-envelope fa-lg navbar-color"></i> <a href="mailto:bansalc73@gmail.com" class="text-color">bansalc73@gmail.com</a>
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
