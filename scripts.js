@@ -15,8 +15,8 @@ $(document).ready(function () {
     $("#login-form").click(function () {
         $('#login-modal').modal('toggle');
     });
-    $("#reserve-table-button").click(function () {
-        $("#reserve-modal").modal("toggle");
+    $("#enroll-course").click(function () {
+        $("#enroll-modal").modal("toggle");
     });
 });
 
